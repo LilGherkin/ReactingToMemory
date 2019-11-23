@@ -9,7 +9,7 @@ const Header = props => {
             <div className="col-12">
                 <div className="row">
                     <div className="col-md-4">
-                        <h3 className="section1">Cartoon Clicker</h2>
+                        <h3 className="section1">Cartoon Clicker</h3>
                     </div>
                     {/*
                     If props.message indicates that you guessed correctly it sets the class to our Success class, or our Failure class.

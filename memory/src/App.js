@@ -1,16 +1,16 @@
 //Call in everything we need.
 import React, {Component} from 'react';
-import './App.css';
 import Header from "./components/header";
 import Bigbox from "./components/bigbox";
 import Card from "./components/cards";
-import RememberThem from "./RememberThem.json";
+import pictures from "./pictures.json";
 
 //Define a class that extends to all compoents in which it is called.
 class App extends Component {
   state = {
-    pictures: RememberThem,
+    pictures: pictures,
     score: 0,
+    highscore: 0,
     message: "",
     tracker: []
   };
@@ -23,6 +23,7 @@ class App extends Component {
     let value;
     //Container value
     let RandomizedIndex;
+    //A while loop that breaks once i === 0. 
     while (0 !== i) {
       RandomizedIndex = Math.floor(Math.random() * i);
       //Decrement index to eventually break while loop.
