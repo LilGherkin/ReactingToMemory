@@ -1,4 +1,4 @@
-I am ahving a lot tf trouble makign this work on github pages. even after installing gh-pages. ANd for some reason the readme keeps getting overwritten.
+It works locally. But I appear to be having trouble with GitHub pages. Also I keep overwritting my readme trying to get gh-pages to work. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
