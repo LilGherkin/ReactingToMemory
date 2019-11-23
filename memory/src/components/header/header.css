@@ -1,0 +1,25 @@
+h2 {
+    text-align: center;
+    font-size: 3em;
+    color: #000000;
+}
+
+.section1 {
+    text-align: center;
+}
+
+.section2 {
+    font-size: 1.5em;
+}
+
+.section3 {
+    text-align: right;
+}
+
+.Success {
+    color: #00ff00;
+}
+
+.Failure {
+    color: #ff0000;
+}
