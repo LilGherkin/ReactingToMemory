@@ -1,0 +1,11 @@
+.bigbox {
+    padding-top: 30px;
+    background: #0000ff;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+}
