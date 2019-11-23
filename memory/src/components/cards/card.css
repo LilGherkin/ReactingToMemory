@@ -1,7 +1,8 @@
 .card {
     margin: 1em;
     padding: 15px;
-    border: 2px solid transparent;
+    border: 10px solid;
+    background: #ffffff;
 }
 
 img {

@@ -66,11 +66,13 @@ class App extends Component {
           highscore={this.state.highscore}
         />
         <Bigbox>
+          {/* Set the cards to have the requested components. Maps from every image*/}
           {this.state.pictures.map(image => (
             <Card
               id={image.id}
               key={image.id}
               name={image.name}
+              image={image.image}
               randomizer={this.randomizer}
               score={this.score}
             />
